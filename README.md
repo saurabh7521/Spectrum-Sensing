@@ -87,7 +87,7 @@ Implemented using `TensorFlow Keras`, the model includes:
 
 **Signal visualization**
 
-The following GIF was created using dataset_exploration.ipynb as an example. It shows the constellation plot of some datapoints for the modulation type QPSK.
+The following GIF was created using dataset_exploration.ipynb as an example. It shows the constellation plot of some datapoints for the modulation type QPSK at different SNRs.
 
 ![QPSK_constellation](https://github.com/user-attachments/assets/6c3ce6d8-1255-4e07-9ff4-d4504c3e140a)
 

@@ -83,7 +83,11 @@ Implemented using `TensorFlow Keras`, the model includes:
 5. **No SNR Awareness**
    The model lacks per-sample SNR information, which is crucial for generalizing across different noise conditions.
 
-The following GIF was created using dataset_exploration.ipynb. It shows the constellation plot of some datapoints for the modulation type QPSK.
+---
+
+**Signal visualization**
+
+The following GIF was created using dataset_exploration.ipynb as an example. It shows the constellation plot of some datapoints for the modulation type QPSK.
 
 ![QPSK_constellation](https://github.com/user-attachments/assets/6c3ce6d8-1255-4e07-9ff4-d4504c3e140a)
 

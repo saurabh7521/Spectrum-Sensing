@@ -1,6 +1,6 @@
 # Spectrum Sensing using VTCNN2
 
-This project uses DeepSig RF dataset to train a VT-CNN2 model for classifying RF signals based on their modulation types to reproduce some results from O'Shea et al [10.1109/JSTSP.2018.2797022](https://ieeexplore.ieee.org/abstract/document/8267032).
+This project uses DeepSig RF dataset to train a VT-CNN2 model for classifying RF signals based on their modulation types to reproduce some results from O'Shea et al [10.1109/JSTSP.2018.2797022](https://ieeexplore.ieee.org/abstract/document/8267032). The model is intentionally kept shallow with the aim of being able to deploy on low cost hardware like Arduino, Raspberry Pi.
 
 I leverage a VTCNN2 (Vision Transformer-inspired CNN) architecture to identify signal types from I/Q sample data for spectrum sensing tasks. The data is chunked and processed incrementally to handle large-scale input efficiently.
 

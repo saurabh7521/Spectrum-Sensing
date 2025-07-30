@@ -7,7 +7,7 @@ I leverage a VTCNN2 (Vision Transformer-inspired CNN) architecture to identify s
 ---
 
 ## Dataset Overview
-
+- **Source** `https://www.kaggle.com/datasets/aleksandrdubrovin/deepsigio-radioml-201801a-new`
 - **Total Size**: ~20.94 GB
 - **Format**: `.npy` files containing I/Q sample data
 - **Classes**: 24 modulation types

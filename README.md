@@ -65,3 +65,20 @@ Implemented using `TensorFlow Keras`, the model includes:
 - TensorBoard:
   ```bash
   tensorboard --logdir=logs/
+
+## Limitations
+
+1. **Shallow Network Depth**
+   The VTCNN2 model is much simpler than deeper CNN or ResNet-based models used in O'Shea et al., limiting its ability to capture complex modulation features.
+
+2. **High Dropout Rate (0.5)**
+   A dropout rate of 50% can overly regularize a small network. Causes underfitting, especially when the model has limited representational capacity to begin with.
+
+3. **Aggressive Normalization**
+   Per-sample normalization will distort amplitude-sensitive modulations, reducing class separability. Some modulation types are inherently amplitude-dependent (e.g., ASK, QAM).
+
+4. **Label Smoothing**
+   Label smoothing was not applied. For large multi-class classification, label smoothing can regularize and reduce overconfidence, improving generalization.
+
+5. **No SNR Awareness**
+   The model lacks per-sample SNR information, which is crucial for generalizing across different noise conditions.

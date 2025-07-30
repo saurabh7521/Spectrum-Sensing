@@ -51,3 +51,15 @@ Implemented using `TensorFlow Keras`, the model includes:
    ```bash
    git clone https://github.com/<your-username>/spectrum-sensing.git
    cd spectrum-sensing
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
+3. **Train model on chunk**
+   ```bash
+   python train.py --chunk_id=0
+3. **Outputs**
+  Checkpoints saved to /models/
+  Logs and metrics saved to /logs/
+  TensorBoard: tensorboard --logdir=logs/

@@ -59,7 +59,9 @@ Implemented using `TensorFlow Keras`, the model includes:
 3. **Train model on chunk**
    ```bash
    python train.py --chunk_id=0
-3. **Outputs**
-  - Checkpoints saved to /models/
-  - Logs and metrics saved to /logs/
-  - TensorBoard: tensorboard --logdir=logs/
+### 3. **Outputs**
+- Checkpoints saved to `/models/`
+- Logs and metrics saved to `/logs/`
+- TensorBoard:
+  ```bash
+  tensorboard --logdir=logs/

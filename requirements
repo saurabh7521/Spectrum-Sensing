@@ -1,0 +1,9 @@
+tensorflow>=2.11
+numpy
+matplotlib
+scikit-learn
+pandas
+jupyter
+notebook
+tqdm
+seaborn
